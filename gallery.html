@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Warung Makan Indomie</title>
+
+    <style>
+        *,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #ffeae0;
+}
+
+/* =======MENU======= */
+.nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  background-color: #ff8c00;
+}
+
+.nav .logo h1 {
+  font-weight: 600;
+  font-family: sans-serif;
+  color: white;
+}
+
+.nav .logo b {
+  color: white;
+}
+
+.nav ul {
+  display: flex;
+  list-style: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.nav ul li {
+  margin-right: 30px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-family: sans-serif;
+  font-size: 17px;
+}
+
+/* ======= ACTIVE =======*/
+
+.nav ul .active::after {
+  content: "";
+  width: 50%;
+  height: 3px;
+  background-color: #ff511c;
+  display: flex;
+  position: relative;
+  margin-left: 10px;
+}
+
+/* ======= GALLERY SECTION =======*/
+
+.gallery-section {
+  padding: 80px 50px;
+  background-color: #ffeae0;
+}
+
+.gallery-title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery-title h1 {
+  font-size: 48px;
+  font-family: sans-serif;
+  color: #ff511c;
+  font-weight: bold;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.gallery-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 140, 0, 0.9);
+  color: white;
+  padding: 15px;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.gallery-caption h3 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.gallery-caption p {
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+    </style>
+</head>
+<body>
+    <section class="menu">
+        <div class="nav">
+            <div class="logo"><h1>Food<b>ie</b></h1></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="gallery.html" class="active">Gallery</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="gallery-title">
+            <h1>Galeri Kami</h1>
+        </div>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/pilihan.jpeg" alt="Pilihan Menu">
+                <div class="gallery-caption">
+                    <h3>Pilihan Menu</h3>
+                    <p>Berbagai pilihan menu lezat untuk Anda</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/varian.jpeg" alt="Varian Menu">
+                <div class="gallery-caption">
+                    <h3>Varian Menu</h3>
+                    <p>Beragam varian menu untuk selera Anda</p>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="images/warung.jpeg" alt="Suasana Warung">
+                <div class="gallery-caption">
+                    <h3>Suasana Warung</h3>
+                    <p>Suasana nyaman di warung kami</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA_Compatible" content="IE-edge">
-    <link rel="stylesheet" href="css/aboutus.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Warung Makan Indomie</title>
-
-    <!-- <style>
-        *,
+*,
 ::after,
 ::before {
   margin: 0;
@@ -127,34 +117,3 @@ body {
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
-
-    </style> -->
-</head>
-<body>
-    <section class="menu">
-        <div class="nav">
-            <div class="logo"><h1>Food<b>ie</b></h1></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="aboutus.html" class="active">About Us</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="about-section">
-        <div class="about-content">
-            <h1>Warung Makan Indomie</h1>
-            <p class="establishment">Berdiri Sejak 1982</p>
-            <p class="address">Jalan Tapian Nauli Pasar III</p>
-            <p class="description">
-                Selama lebih dari 40 tahun, kami telah melayani berbagai menu cepat saji yang nikmat dan lezat untuk pelanggan setia kami. Warung Makan Indomie hadir dengan komitmen untuk menyajikan hidangan berkualitas dengan cita rasa yang konsisten dan pelayanan yang ramah. Setiap hidangan kami dibuat dengan penuh perhatian untuk memastikan kepuasan pelanggan kami.
-            </p>
-            <div class="about-image">
-                <img src="images/warmindo.png" alt="Warung Makan Indomie">
-            </div>
-        </div>
-    </section>
-</body>
-</html>

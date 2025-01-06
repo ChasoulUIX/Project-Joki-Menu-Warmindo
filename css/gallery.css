@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA_Compatible" content="IE-edge">
-    <link rel="stylesheet" href="css/gallery.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery - Warung Makan Indomie</title>
-
-    <!-- <style>
-        *,
+*,
 ::after,
 ::before {
   margin: 0;
@@ -139,49 +129,3 @@ body {
   font-size: 14px;
   opacity: 0.9;
 }
-
-    </style> -->
-</head>
-<body>
-    <section class="menu">
-        <div class="nav">
-            <div class="logo"><h1>Food<b>ie</b></h1></div>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="menu.html">Menu</a></li>
-                <li><a href="aboutus.html">About Us</a></li>
-                <li><a href="gallery.html" class="active">Gallery</a></li>
-            </ul>
-        </div>
-    </section>
-
-    <section class="gallery-section">
-        <div class="gallery-title">
-            <h1>Galeri Kami</h1>
-        </div>
-        <div class="gallery-grid">
-            <div class="gallery-item">
-                <img src="images/galery/pilihan.jpeg" alt="Pilihan Menu">
-                <div class="gallery-caption">
-                    <h3>Pilihan Menu</h3>
-                    <p>Berbagai pilihan menu lezat untuk Anda</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/galery/varian.jpeg" alt="Varian Menu">
-                <div class="gallery-caption">
-                    <h3>Varian Menu</h3>
-                    <p>Beragam varian menu untuk selera Anda</p>
-                </div>
-            </div>
-            <div class="gallery-item">
-                <img src="images/galery/warung.jpeg" alt="Suasana Warung">
-                <div class="gallery-caption">
-                    <h3>Suasana Warung</h3>
-                    <p>Suasana nyaman di warung kami</p>
-                </div>
-            </div>
-        </div>
-    </section>
-</body>
-</html>
